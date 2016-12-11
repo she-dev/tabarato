@@ -7,6 +7,7 @@ import { Button, Card, CardSection, Input } from './common';
 class BargainCreate extends Component {
   onAddButtonPress() {
     const { product, quantity, brand, price, store } = this.props;
+    this.props.bargainCreate({ product, quantity, brand, price, store });
     console.log('this.props BargainCreate', this.props);
   }
 

@@ -1,3 +1,4 @@
+export const BARGAIN_CREATE = 'bargain_create';
 export const BARGAIN_FORM_UPDATE = 'bargain_form_update';
 export const EMAIL_CHANGED = 'email_changed';
 export const PASSWORD_CHANGED = 'password_changed';
