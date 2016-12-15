@@ -3,6 +3,7 @@ import { Text } from 'react-native';
 import { connect } from 'react-redux';
 import { bargainCreate, bargainUpdate } from '../actions';
 import { Button, Card, CardSection, Input } from './common';
+import PlacePicker from './PlacePicker';
 
 class BargainCreate extends Component {
   onAddButtonPress() {
@@ -53,12 +54,13 @@ class BargainCreate extends Component {
 
         <CardSection>
           <Input
-            label="Preço"
+            label="Preço        R$"
+            keyboardType={'numeric'}
             onChangeText={
               value => this.props.bargainUpdate({
                 prop: 'price', value
               })}
-            placeholder="R$ 1,39"
+            placeholder="1,39"
             value={this.props.price}
           />
         </CardSection>
@@ -73,6 +75,10 @@ class BargainCreate extends Component {
             placeholder="Noite&"
             value={this.props.store}
           />
+        </CardSection>
+
+        <CardSection>
+          <PlacePicker />
         </CardSection>
 
         <CardSection>
