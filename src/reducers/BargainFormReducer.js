@@ -4,9 +4,11 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-  name: '',
-  phone: '',
-  shift: ''
+  product: '',
+  quantity: '',
+  brand: '',
+  price: '',
+  store: ''
 };
 
 export default (state = INITIAL_STATE, action) => {
