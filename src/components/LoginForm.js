@@ -72,9 +72,7 @@ const styles = {
   }
 };
 
-// Only map the props that we want to use
 const mapStateToProps = ({ auth }) => {
-  // just the auth piece of state
   const { email, password, error, loading } = auth;
   return { email, password, error, loading };
 };
