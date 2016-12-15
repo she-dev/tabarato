@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "firebase": "^3.6.3",
+    "rc-input-number": "^2.8.6",
     "react": "15.4.1",
     "react-native": "0.39.1",
+    "react-native-google-places": "^0.8.8",
     "react-native-router-flux": "^3.35.0",
     "react-redux": "^4.4.6",
     "redux": "^3.6.0",

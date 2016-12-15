@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38919809FCE058CB8DD33B7D7DAA0F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C0A87EA8632D3F27D5850A4E21CC1CA9 /* Pods-tabarato-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48BBA8E3B3B5758DC57ABBCD6B0A12 /* Pods-tabarato-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071D583EB755319A95D27EBCDCF14DC3 /* libPods-tabarato.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tabarato.a"; path = "libPods-tabarato.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		48BD09729A7C37B7202A10D4505F053E /* Pods-tabarato-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tabarato-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66DCEA63297BF8E085D2CF39336CA7A3 /* Pods-tabarato-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tabarato-frameworks.sh"; sourceTree = "<group>"; };
+		74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		7B48BBA8E3B3B5758DC57ABBCD6B0A12 /* Pods-tabarato-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tabarato-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		969E5DDC96CD517FB06C7EBEB816AA4D /* Pods-tabarato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tabarato.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D23F5952DBFC7FD5C98C4819924ECC23 /* Pods-tabarato-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tabarato-acknowledgements.plist"; sourceTree = "<group>"; };
+		D479C7F39D764027D78332F02D52AB80 /* Pods-tabarato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tabarato.release.xcconfig"; sourceTree = "<group>"; };
+		EF178CD4420D047589A6325926E670CB /* Pods-tabarato-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tabarato-resources.sh"; sourceTree = "<group>"; };
+		F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A14A7E8E7E4476B9342B42A213698E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38919809FCE058CB8DD33B7D7DAA0F95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */,
+				9595338FF99D6E406412D70BB160C308 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		2DE0925F099A1B2B44C0DEDF3AB74A7B /* Pods-tabarato */ = {
+			isa = PBXGroup;
+			children = (
+				48BD09729A7C37B7202A10D4505F053E /* Pods-tabarato-acknowledgements.markdown */,
+				D23F5952DBFC7FD5C98C4819924ECC23 /* Pods-tabarato-acknowledgements.plist */,
+				7B48BBA8E3B3B5758DC57ABBCD6B0A12 /* Pods-tabarato-dummy.m */,
+				66DCEA63297BF8E085D2CF39336CA7A3 /* Pods-tabarato-frameworks.sh */,
+				EF178CD4420D047589A6325926E670CB /* Pods-tabarato-resources.sh */,
+				969E5DDC96CD517FB06C7EBEB816AA4D /* Pods-tabarato.debug.xcconfig */,
+				D479C7F39D764027D78332F02D52AB80 /* Pods-tabarato.release.xcconfig */,
+			);
+			name = "Pods-tabarato";
+			path = "Target Support Files/Pods-tabarato";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A999BD5B4C2C01904FC59776164FBE1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E06B488730A4D2D60155C0F5B250113B /* Frameworks */,
+				A70C9D5B5ADE1DDE20CC891BF30AD31D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
+				A7C3F505C0DF82054F8F67ACC027DA39 /* Products */,
+				A5788326193C2FC69A12A6388FE3FD54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7452F072AE52572A3EDF54A4B20163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFA7EAE118844748AD9685060A6B673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D7452F072AE52572A3EDF54A4B20163 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9335B78F64E389AD6BD28E5033911D2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9595338FF99D6E406412D70BB160C308 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5788326193C2FC69A12A6388FE3FD54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE0925F099A1B2B44C0DEDF3AB74A7B /* Pods-tabarato */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A70C9D5B5ADE1DDE20CC891BF30AD31D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7C3F505C0DF82054F8F67ACC027DA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071D583EB755319A95D27EBCDCF14DC3 /* libPods-tabarato.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */,
+				CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */,
+				057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */,
+				9335B78F64E389AD6BD28E5033911D2C /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		E06B488730A4D2D60155C0F5B250113B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */,
+				2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA7EAE118844748AD9685060A6B673 /* Base */,
+				7A999BD5B4C2C01904FC59776164FBE1 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E56D9420F6FA9B3BD12947183C8499C6 /* Pods-tabarato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967D1EB569485F0F6D4740612BAE837 /* Build configuration list for PBXNativeTarget "Pods-tabarato" */;
+			buildPhases = (
+				E9CE39D153DC7ED8A567FE7A82A21C88 /* Sources */,
+				8A14A7E8E7E4476B9342B42A213698E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tabarato";
+			productName = "Pods-tabarato";
+			productReference = 071D583EB755319A95D27EBCDCF14DC3 /* libPods-tabarato.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A7C3F505C0DF82054F8F67ACC027DA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E56D9420F6FA9B3BD12947183C8499C6 /* Pods-tabarato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9CE39D153DC7ED8A567FE7A82A21C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A87EA8632D3F27D5850A4E21CC1CA9 /* Pods-tabarato-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		01E53D4A714D230FCCAC66D7B88F5DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969E5DDC96CD517FB06C7EBEB816AA4D /* Pods-tabarato.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2C2A8AB7867BDED031D1771B6EE318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D479C7F39D764027D78332F02D52AB80 /* Pods-tabarato.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4967D1EB569485F0F6D4740612BAE837 /* Build configuration list for PBXNativeTarget "Pods-tabarato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E53D4A714D230FCCAC66D7B88F5DAB /* Debug */,
+				6E2C2A8AB7867BDED031D1771B6EE318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

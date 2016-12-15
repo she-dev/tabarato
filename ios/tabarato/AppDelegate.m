@@ -11,6 +11,8 @@
 
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
+@import GooglePlaces;
+@import GoogleMaps;
 
 @implementation AppDelegate
 
@@ -30,6 +32,8 @@
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
+  [GMSPlacesClient provideAPIKey:@"AIzaSyBumgCsRXStKtAnjfffueOs9YxJcXib9oM"];
+  [GMSServices provideAPIKey:@"AIzaSyBumgCsRXStKtAnjfffueOs9YxJcXib9oM"];
   [self.window makeKeyAndVisible];
   return YES;
 }
