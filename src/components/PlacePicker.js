@@ -3,12 +3,20 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import RNGooglePlaces from 'react-native-google-places';
 
 class PlacePicker extends Component {
-  openSearchModal() {
+  state = { place: {} };
+
+  openSearchModal = () => {
     RNGooglePlaces.openPlacePickerModal()
     .then((place) => { 
-        console.log(place);         
+      console.log('inside opensearchmodal then');
+        this.setState({
+          place
+        });
+      
+      console.log('this.props ', this.props);
+      console.log('this.state ', this.state);
     })
-    .catch(error => console.log(error.message));
+    .catch(error => console.log('GooglePlacePicker Error: ', error.message));
   }
 
   render() {
@@ -24,4 +32,10 @@ class PlacePicker extends Component {
   }
 }
 
+// const mapStateToProps = (state) => {
+//   const { place } = state.storeLocation;
+//   return { place };
+// };
+
+// export default connect(mapStateToProps, { placeChanged })(PlacePicker);
 export default PlacePicker;
