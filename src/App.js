@@ -10,11 +10,11 @@ import Router from './Router';
 class App extends Component {
   componentWillMount() {
     const config = {
-      apiKey: 'AIzaSyAF4L5UKGHVcWXXbarKbBpPPqle77euJmY',
-      authDomain: 'tabarato-152119.firebaseapp.com',
-      databaseURL: 'https://tabarato-152119.firebaseio.com',
-      storageBucket: 'tabarato-152119.appspot.com',
-      messagingSenderId: '307951384130'
+      apiKey: <firebase-info>,
+      authDomain: <firebase-info>,
+      databaseURL: <firebase-info>,
+      storageBucket: <firebase-info>,
+      messagingSenderId: <firebase-info>
     };
     firebase.initializeApp(config);
   }
